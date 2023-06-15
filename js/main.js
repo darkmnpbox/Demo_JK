@@ -117,3 +117,11 @@
     
 })(jQuery);
 
+function closeModel(){
+    document.getElementById("feedbackModel").style.display = "none";
+}
+
+function openModel(){
+    document.getElementById("feedbackModel").style.display = "block";
+}
+
